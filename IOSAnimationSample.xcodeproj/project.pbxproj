@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016B892B20316FC100CF3B14 /* scaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B892A20316FC100CF3B14 /* scaleViewController.swift */; };
+		016B892D2031726B00CF3B14 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B892C2031726B00CF3B14 /* OpacityViewController.swift */; };
+		016B892F203175AF00CF3B14 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B892E203175AF00CF3B14 /* ColorViewController.swift */; };
+		016B89312031771D00CF3B14 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016B89302031771D00CF3B14 /* RotationViewController.swift */; };
 		01832A6D202EC9C900C68C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01832A6C202EC9C900C68C83 /* AppDelegate.swift */; };
 		01832A72202EC9C900C68C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01832A70202EC9C900C68C83 /* Main.storyboard */; };
 		01832A74202EC9C900C68C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01832A73202EC9C900C68C83 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		016B892A20316FC100CF3B14 /* scaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scaleViewController.swift; sourceTree = "<group>"; };
+		016B892C2031726B00CF3B14 /* OpacityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		016B892E203175AF00CF3B14 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		016B89302031771D00CF3B14 /* RotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
 		01832A69202EC9C900C68C83 /* IOSAnimationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAnimationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01832A6C202EC9C900C68C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01832A71202EC9C900C68C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,7 +65,11 @@
 				01832A7E202ED0FB00C68C83 /* PositionViewController.swift */,
 				01832A6C202EC9C900C68C83 /* AppDelegate.swift */,
 				01832A70202EC9C900C68C83 /* Main.storyboard */,
+				016B892E203175AF00CF3B14 /* ColorViewController.swift */,
+				016B892C2031726B00CF3B14 /* OpacityViewController.swift */,
+				016B892A20316FC100CF3B14 /* scaleViewController.swift */,
 				01832A73202EC9C900C68C83 /* Assets.xcassets */,
+				016B89302031771D00CF3B14 /* RotationViewController.swift */,
 				01832A75202EC9C900C68C83 /* LaunchScreen.storyboard */,
 				01832A78202EC9C900C68C83 /* Info.plist */,
 			);
@@ -138,6 +150,10 @@
 			files = (
 				01832A6D202EC9C900C68C83 /* AppDelegate.swift in Sources */,
 				01832A7F202ED0FB00C68C83 /* PositionViewController.swift in Sources */,
+				016B89312031771D00CF3B14 /* RotationViewController.swift in Sources */,
+				016B892D2031726B00CF3B14 /* OpacityViewController.swift in Sources */,
+				016B892F203175AF00CF3B14 /* ColorViewController.swift in Sources */,
+				016B892B20316FC100CF3B14 /* scaleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
